@@ -14,7 +14,7 @@ return <div className="Card">
 </div>
 
 }
-console.log (Card)
+// console.log (Card)
 
 export default Card
 
