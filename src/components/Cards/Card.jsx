@@ -2,14 +2,15 @@ import React from "react";
 import "../Cards/card.scss";
 
 const Card = (props) => {
-  const {image, name, brewed, abv,ph} = props
+  const {image, name, brewed, abv,ph,} = props
 return <div className="Card">
 
   <img src= {image} alt="solo beer can" className= "Card__image"/>
-  <p>{name}</p>
-  <p>{brewed}</p>
-  <p>{abv}</p>
-  <p>{ph}</p>
+  <p> {name}</p>
+  <p>First brewed: {brewed}</p>
+  <p>ABV: {abv}</p>
+  <p> pH: {ph}</p>
+  <button className="Card__button" > More information</button>
 
 </div>
 
