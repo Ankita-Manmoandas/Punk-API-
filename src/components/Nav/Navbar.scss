@@ -33,11 +33,10 @@
 }
 }
 @media screen and (min-width: 1200px) {
-  Nav {
+  .Nav {
     height: 80vh;
-    width: 10%;
-    margin-left: 0;
-
+    width: max-content;
+   
 
   }
 
