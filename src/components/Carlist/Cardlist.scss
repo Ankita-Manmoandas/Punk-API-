@@ -27,9 +27,10 @@
 @media screen and (min-width: 1200px) {
 
   .Cards__list {
-  grid-template-columns: auto auto auto auto auto ;
+  grid-template-columns: auto auto auto auto;
   width: 100%;
   margin: auto;
+  height: fit-content;
   overflow-x: auto; 
   margin-left: auto;
 
