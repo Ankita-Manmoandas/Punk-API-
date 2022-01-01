@@ -1,13 +1,14 @@
 @import "../../../assests/sass/variables";
 
 .filter-list {
-  height: 20%;
+  height: fit-content;
   background-color: $color-tertiary;
   border-radius: 10px;
   text-align: center;
-  width: 80%;
+  width: 70%;
   padding-top: 5%;
-  
+  margin-top: 5%;
+
 
 
 }

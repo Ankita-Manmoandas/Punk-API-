@@ -13,26 +13,27 @@
 
 @media screen and (min-width: 1024px) {
   .Cards__list {
-  height: 100vh;
+ height: fit-content;
   width: 100%;
   background-color: $color-black;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   overflow-y: scroll;
   padding-top: 0px;
   margin-top: 0px;
- margin-left: 1%;
+ margin-left: 5%;
   
   } }
 @media screen and (min-width: 1200px) {
 
   .Cards__list {
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   width: 100%;
+  gap: 20px;
   margin: auto;
-  height: fit-content;
   overflow-x: auto; 
-  margin-left: auto;
+  margin-left: 0;
+  padding-bottom: 10%;
 
 }
 }

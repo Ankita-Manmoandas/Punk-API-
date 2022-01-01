@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Cardlist.scss";
 import Card from "../Cards/Card";
 import data from "../../data/data";
+import MoreInfo from "../Moreinfo/MoreInfo";
 
 
 const Cardlist = (props) => {
@@ -17,7 +18,16 @@ const Cardlist = (props) => {
   // })
 
   const cardMap = cardArray.map ((item, index) => {
-    return  <Card  key={"item" + index} image = {item.image_url} name= {item.name} brewed = {item.first_brewed} abv = {item.abv}  ph={item.ph} />
+    return <>
+    <Card  key={"item" + index} image = {item.image_url} name= {item.name} brewed = {item.first_brewed} abv = {item.abv}  ph={item.ph}  
+
+      
+   />
+      
+
+    
+    
+    </>
   })
 
   

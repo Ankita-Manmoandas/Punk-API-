@@ -6,7 +6,7 @@ const Search = (props) => {
 
   const {search, handleInput} = props
   return <div>
-    <input className="Search" value = {search} onInput = {handleInput} /> 
+    <input className="Search" value = {search} onInput = {handleInput}  placeholder="Enter a beer name"/> 
 
   </div>
 }
