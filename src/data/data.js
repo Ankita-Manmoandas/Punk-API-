@@ -1,5 +1,6 @@
 const beers = [
   {
+      
       "id": 1,
       "name": "Buzz",
       "tagline": "A Real Bitter Experience.",
